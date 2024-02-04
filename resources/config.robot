@@ -6,10 +6,8 @@ Library     ../lambdatest/LambdaTestStatus.py
 
 
 *** Variables ***
-${username}                 robby.darmawan
-${accesskey}                s81cWg6awbn25drntSfwAl8bdyRhRfQ0JT01CICkFrCk1B45Mt
-# ${username}                 <-- YOUR USERNAME -->
-# ${accesskey}                <-- YOUR ACCESS KEY -->
+${username}                 <-- YOUR USERNAME -->
+${accesskey}                <-- YOUR ACCESS KEY -->
 ${REMOTE_URL}               https://${username}:${accesskey}@mobile-hub.lambdatest.com/wd/hub
 ${TIMEOUT}                  3000
 
